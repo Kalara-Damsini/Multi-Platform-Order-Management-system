@@ -1,6 +1,7 @@
 import './App.css'
-import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/home'
+import AddOrder from './pages/AddOrder/addOrder';
 
 function App() {
   
@@ -9,10 +10,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route index element={<Home />} />
+        <Route path="/add-order" element={<AddOrder />} />
       </Routes>
     </BrowserRouter>
   )
 }
 
 export default App
- 

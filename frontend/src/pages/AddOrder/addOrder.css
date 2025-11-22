@@ -1,0 +1,86 @@
+#form{
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 200px; */
+}
+
+.add-row1{
+    display: grid;
+    grid-template-columns: 20% 20%;
+    margin-bottom: 20px;
+
+}
+
+.add-row2{
+    display: grid;
+    grid-template-columns:20% 20%;
+    margin-bottom: 20px;
+}
+
+.add-row3{
+    display: grid;
+    grid-template-columns: 26%;
+    margin-bottom: 20px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+/* #orderDate{
+    width: 200px;
+    padding: 5px;
+} */
+
+#customerName, #product, #orderDate, #deadlineDate{
+    width: 300px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.line{
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+    width: 40%;
+}
+
+#platform, #proofs, #additionalNotes{
+    width: 695px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.add-row4{
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5%;
+    margin-bottom: 20px;
+}
+
+#orderAmount, #advanceReceived, #balanceDue{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.add-row5{
+    display: grid;
+    grid-template-columns: 26%;
+    margin-bottom: 20px;
+}
+
+.add-row6{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+#submitBtn, #cancelBtn{
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
